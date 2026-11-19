@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+/* body *:nth-child(odd) {
+    background-color: rgb(255, 156, 156);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+body *:nth-child(2) {
+    color: hsl(231, 100%, 50%);
+    font-size: 36px;
+}
+
+body *:nth-child(3), body *:nth-child(4) {
+    font-size: 24px;
+}
+
+body *:nth-child(4) {
+    background-color: hwb(138 56% 0%);
+} */
