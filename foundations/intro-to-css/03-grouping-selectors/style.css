@@ -1,1 +1,47 @@
-/* Add CSS Styling */
+body {
+    background-color: black;
+    color: gainsboro;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+button {
+    border-radius: 50px;
+    padding: 30px 70px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+    opacity: 60%;
+}
+
+button:hover {
+    cursor: pointer;
+    padding: 40px 80px;
+    opacity: 100%;
+}
+
+.red-pill {
+    background: linear-gradient(90deg,rgba(255, 17, 0, 1) 50%, rgba(97, 0, 0, 1) 50%);
+}
+
+.blue-pill {
+    background: linear-gradient(90deg,rgb(0, 4, 255) 50%, rgb(0, 142, 185) 50%);
+}
+
+#neo {
+    font-weight: bolder;
+    color: greenyellow;
+}
+
+#caret {
+    transition: all 0.3s ease-in-out;
+}
